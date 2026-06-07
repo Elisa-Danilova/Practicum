@@ -1,0 +1,65 @@
+# Чувствительные файлы (пароли, секреты)
+params.env
+.env
+*.env
+
+# Файлы зависимостей (если они локальные)
+requirements.txt
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Тестовые и временные файлы
+*.tmp
+*.bak
+*.test
+
+# Базы данных (локальные)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage и тестирование
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Транслированные файлы
+*.pyc
